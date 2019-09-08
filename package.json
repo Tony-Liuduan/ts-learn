@@ -5,7 +5,6 @@
   "main": "index.js",
   "scripts": {
     "client:dev": "scripty",
-    "client:server": "scripty",
     "client:prod": "scripty"
   },
   "keywords": [
