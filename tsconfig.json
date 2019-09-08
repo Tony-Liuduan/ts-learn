@@ -1,0 +1,27 @@
+{
+    "compilerOptions": {
+        // 生成的所有文件放在dist目录下
+        "outDir": "./dist/",
+        // allow sourcemap support
+        "sourceMap": true,
+        "noImplicitAny": true,
+        // specify module code generation
+        "module": "commonjs",
+        // 将JavaScript代码降级到低版本比如ECMAScript 5
+        "target": "es5",
+        // use typescript to transpile jsx to js
+        "jsx": "react",
+        // 接受JavaScript做为输入
+        "allowJs": true,
+        // 默认地，TypeScript把null和undefined当做属于任何类型, 当启用了strictNullChecks，null和undefined获得了它们自己各自的类型null和undefined
+        // 要当心，当你使用strictNullChecks，你的依赖也需要相应地启用strictNullChecks
+        "strictNullChecks": true
+    },
+    "include": [
+        // 读取所有可识别的src目录下的文件
+        "./src/**/*"
+    ],
+    "exclude": [
+        "node_modules"
+    ]
+}
